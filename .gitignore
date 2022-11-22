@@ -1,0 +1,5 @@
+.idea
+algorithms/node_modules
+design-patterns-JS/node_modules
+algorithms/package-lock.json
+design-patterns-JS/package-lock.json
