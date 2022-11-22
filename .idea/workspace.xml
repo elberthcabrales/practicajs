@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="642bb042-750d-4c6f-9590-fd4b55aab701" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FlpXgqCohCUtupviBlanEki3HV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dataperro/Documents/Development/js/javascript-training&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/dataperro/Documents/Development/js/javascript-training/node_modules/jest&quot;,
+    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/281/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algorithms/training elberth/algoExpert" />
+      <recent name="$PROJECT_DIR$/src/algorithms/training elberth/leetcode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Mocha.adapter_es6 tests">
+    <configuration name="adapter_es6 tests.sanity" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/src/design-patterns-JS" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/design-patterns-JS/test/adapter_es6-test.js" />
+      <test-names>
+        <test-name value="adapter_es6 tests" />
+        <test-name value="sanity" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="arrayOfProducts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/arrayOfProducts.js" working-dir="$PROJECT_DIR$/src/algorithms/training elberth/algoExpert">
+      <method v="2" />
+    </configuration>
+    <configuration name="bts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/bts.js" working-dir="$PROJECT_DIR$/src/algorithms/training elberth/algoExpert">
+      <method v="2" />
+    </configuration>
+    <configuration name="maxHeap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps/maxHeap.js" working-dir="$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps">
+      <method v="2" />
+    </configuration>
+    <configuration name="adapter_es6 tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$/src/design-patterns-JS</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/src/design-patterns-JS/test/adapter_es6-test.js</test-file>
+      <test-names>
+        <name value="adapter_es6 tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.adapter_es6 tests" />
+        <item itemvalue="Jest.adapter_es6 tests.sanity" />
+        <item itemvalue="Node.js.maxHeap.js" />
+        <item itemvalue="Node.js.arrayOfProducts.js" />
+        <item itemvalue="Node.js.bts.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="642bb042-750d-4c6f-9590-fd4b55aab701" name="Changes" comment="" />
+      <created>1665076567423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665076567423</updated>
+      <workItem from="1665076573221" duration="588000" />
+      <workItem from="1665077724083" duration="43969000" />
+      <workItem from="1665756124873" duration="3609000" />
+      <workItem from="1666741868865" duration="4127000" />
+      <workItem from="1666767600377" duration="605000" />
+      <workItem from="1666794080986" duration="31839000" />
+      <workItem from="1666880015970" duration="20811000" />
+      <workItem from="1666968393262" duration="22202000" />
+      <workItem from="1667063998141" duration="25683000" />
+      <workItem from="1667179506376" duration="11054000" />
+      <workItem from="1667231415713" duration="23069000" />
+      <workItem from="1667317848104" duration="25617000" />
+      <workItem from="1667412456683" duration="38942000" />
+      <workItem from="1667537652593" duration="7012000" />
+      <workItem from="1667581695718" duration="8841000" />
+      <workItem from="1667696428845" duration="7248000" />
+      <workItem from="1667878242253" duration="22026000" />
+      <workItem from="1668035308365" duration="9869000" />
+      <workItem from="1668095913761" duration="26354000" />
+      <workItem from="1668278844350" duration="21391000" />
+      <workItem from="1668439902532" duration="13936000" />
+      <workItem from="1668604204498" duration="26000" />
+      <workItem from="1668827123521" duration="349000" />
+      <workItem from="1669074876545" duration="26000" />
+      <workItem from="1669075015119" duration="718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/countCoincidense.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/stacks/Stack.js</url>
+          <line>54</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/stacks/Stack.js</url>
+          <line>55</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps/maxHeap.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps/maxHeap.js</url>
+          <line>96</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps/maxHeap.js</url>
+          <line>98</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps/maxHeap.js</url>
+          <line>93</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps/maxHeap.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps/myMaxHeap.js</url>
+          <line>26</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/bsts/BinarySearchThree.js</url>
+          <line>84</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/bsts/BinarySearchThree.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/graphs/LinkedList.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/binarySearchRotated.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/findFirstUnique.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/findFirstUnique.js</url>
+          <line>23</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/dynamic programing/coinChangeWays.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/stacksAndQueues/isBalanced.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/integerToNumber.js</url>
+          <line>66</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/tormentWar.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/sumOfBranchBst.js</url>
+          <line>73</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/sumOfBranchBst.js</url>
+          <line>42</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/stacksAndQueues/Stack.js</url>
+          <line>61</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/romanToInt.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/dynamic programing/levenshtein.js</url>
+          <line>50</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/dynamic programing/longestCommonSubstring.js</url>
+          <line>17</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/longestCommonPrefix.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/removeDuplicates.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/serchInsert.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/serchInsert.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/serchInsert.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/pluseOne.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/pluseOne.js</url>
+          <line>19</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/pluseOne.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/pluseOne.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/binaryNumbers.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/climbingStairs.js</url>
+          <line>33</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/climbingStairs.js</url>
+          <line>39</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/findSecondMaximum.js</url>
+          <line>23</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/stacksAndQueues/sortStack.js</url>
+          <line>74</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/stacksAndQueues/sortStack.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/stacksAndQueues/sortStack.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/linkedList/LinkedListLoopExample.js</url>
+          <line>52</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/linkedList/LinkedListLoopExample.js</url>
+          <line>26</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/graphs/Graph.js</url>
+          <line>19</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/linkedList/LinkedList.js</url>
+          <line>237</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/linkedList/LinkedList.js</url>
+          <line>228</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/linkedList/LinkedList.js</url>
+          <line>288</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/mergeSortedArray.js</url>
+          <line>14</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/mergeSortedArray.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/SymmetricTree.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/leetcode/SymmetricTree.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/sortedSquaredArray.js</url>
+          <line>23</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/sortedSquaredArray.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/linkedList/myLinkedList.js</url>
+          <line>77</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/productSum.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/smallestDifference.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/spiralTraverse.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/longestBalancedSubstring.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/longesPeak.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/mergeOverlappingIntervals2.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/mergeOverlappingIntervals2.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/mergeOverlappingIntervals2.js</url>
+          <line>9</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/bts.js</url>
+          <line>76</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/bts.js</url>
+          <line>138</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/bts.js</url>
+          <line>91</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/bts.js</url>
+          <line>94</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/maxSubsetSumNoAdjacent.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/findSecondMaximum.js</url>
+          <line>41</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/bts.js</url>
+          <line>86</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/algoExpert/arrayOfProducts.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/algorithms/training elberth/educativeio/heaps/maxHeap.js</url>
+          <line>61</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
