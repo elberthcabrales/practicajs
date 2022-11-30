@@ -13,7 +13,7 @@ class LinkedList {
   //Insertion At Head
   insertAtHead(newData) {
     let tempNode = new Node(newData);
-    tempNode.nextElement = this.head;
+    tempNode.nextElement = this.head; // current head is next of the new head
     this.head = tempNode;
     return this; //returning the updated list
   }
@@ -29,7 +29,7 @@ class LinkedList {
       return false;
     } else {
       let temp = this.head;
-      while (temp != null) {
+      while (temp !== null) {
         process.stdout.write(String(temp.data));
         process.stdout.write(" -> ");
         temp = temp.nextElement;
@@ -46,9 +46,9 @@ class LinkedList {
       }
       process.stdout.write(String(node.data));
       process.stdout.write(" -> ");
-      printRec(node.nextElement)
-    }
-    return printRec(this.head)
+      printRec(node.nextElement);
+    };
+    return printRec(this.head);
   }
 
   getHead() {
@@ -70,7 +70,7 @@ class LinkedList {
     let currentNode = this.head;
 
     //Iterate to the last element
-    while (currentNode.nextElement != null) {
+    while (currentNode.nextElement !== null) {
       currentNode = currentNode.nextElement;
     }
 
@@ -171,12 +171,14 @@ class LinkedList {
     let nextNode = null;
 
     while (currentNode !== null) {
-      nextNode = currentNode.nextElement; //backup next node before reversing
-      currentNode.nextElement = previousNprintRecode; // reverse the direction
-      previousNode = currentNode // backup currentNode in previousNode don't edit origin reference
-      currentNode = nextNode;// use nextNode for prevent edit origin reference
+      nextNode = currentNode.nextElement; // backup next for currentNode forwards in loop
+
+      currentNode.nextElement = previousNode; // in next use previous to swap
+      previousNode = currentNode; //in previous use current to swap
+
+      currentNode = nextNode;// use backup forwards in loop
     }
-    this.head = previousNode;
+    this.head = previousNode; //previous is switched
     return this;
   }
 
@@ -185,10 +187,10 @@ class LinkedList {
       return this;
     }
 
-    let slower = this.head;
-    let faster = this.head;
+    let slower = this.head; // slower is normal
+    let faster = this.head; // faster is ahead by one position in list
 
-    if (slower.nextElement == null) {
+    if (slower.nextElement === null) {
       return slower;
     }
     while (slower.nextElement !== null && faster.nextElement !== null && faster.nextElement.nextElement !== null) {
@@ -206,7 +208,7 @@ class LinkedList {
     let current = this.head;
     let prev = current;
 
-    while (current.nextElement != null) {
+    while (current.nextElement !== null) {
       // If current value is seen before
       if (set.has(current.data)) {
         prev.nextElement = current.nextElement; // jump prev to next
@@ -224,18 +226,18 @@ class LinkedList {
       return this;
     }
     let list = this.head;
-    const set = new Set();
-    set.add(list.data)
-    while (list.nextElement != null) {
+    const set = new Set([list.data]);
+
+    while (list.nextElement !== null) {
       if (set.has(list.nextElement.data)) {
-        list.nextElement = list.nextElement.nextElement
+        list.nextElement = list.nextElement.nextElement;
       } else {
-        set.add(list.nextElement.data)
-        list = list.nextElement
+        set.add(list.nextElement.data);
+        list = list.nextElement;
       }
     }
-z
-    return list
+
+    return this;
   }
 }
 
@@ -280,7 +282,7 @@ list.printList()
 //before 6 -> 7 -> 6 -> 1 -> 3 -> 4 -> null
 list.removeDuplicates()
 // after 6 -> 7 -> 1 -> 3 -> 4 -> null
-list.printList()
+console.log(`removed duplicated: ${JSON.stringify(list.removeDuplicates())}`);
 let list2 = new LinkedList();
 list2.insertAtHead(2);
 list2.insertAtHead(1);

@@ -15,8 +15,8 @@ function bfsTraversal_helper(g, source, visited, obj) {
     //Get adjacent vertices to the current_node from the list,
     //and if they are not already visited then enqueue them in the Queue
     let temp = g.list[current_node].getHead();
-    while (temp != null) {
-      if (visited[temp.data] == false) {
+    while (temp !== null) {
+      if (visited[temp.data] === false) {
         queue.enqueue(temp.data);
         visited[temp.data] = true; //Visit the children
       }
@@ -34,11 +34,7 @@ function bfsTraversal(g) {
 
   //An array to hold the history of visited nodes
   //Make a node visited whenever you push it into stack
-  let visited = [];
-  for (let x = 0; x < g.vertices; x++) {
-    visited.push(false);
-  }
-
+  let visited = new Array(g.vertices).fill(false);
   for (let i = 0; i < g.vertices; i++) {
     if (!visited[i])
       bfsTraversal_helper(g, i, visited, obj);
@@ -52,4 +48,4 @@ g1.addEdge(1, 2);
 g1.addEdge(1, 3);
 g1.addEdge(2, 4);
 g1.addEdge(2, 5);
-console.log(bfsTraversal(g1, 0));
+console.log(bfsTraversal(g1));

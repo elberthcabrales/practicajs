@@ -89,6 +89,7 @@ class BST {
         this.right.remove(this.value, this);
       } else { // has 1 child
         if (parent) {
+          // Add leafs of removed to parent
           if (parent.left === this) {
             parent.left = this.left ? this.left : this.right;
           } else {

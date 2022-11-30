@@ -13,7 +13,7 @@ class BinarySearchTree {
   }
 
   insert(newValue) {
-    if(this.root==null){
+    if(this.root===null){
       this.root=new Node(newValue);
       return;
     }

@@ -32,7 +32,7 @@ class Queue {
 module.exports = {
   Queue,
 }
-/**
+
 function findBin(n) {
   const result = []
   if(n <= 0) return result;
@@ -51,7 +51,7 @@ function findBin(n) {
   return result;
 }
 
-
+/**
  * [ '1' ]
  * [ '1', '10' ]
  * [ '1', '10', '11' ]
@@ -64,4 +64,4 @@ function findBin(n) {
  * [ '1', '10', '11', '100', '101', '110', '111', '1000', '1001', '1010' ]
  * [ '1', '10', '11', '100', '101', '110', '111', '1000', '1001', '1010' ]
  */
-//process.stdout.write(JSON.stringify(findBin(11))) //[ '1', '10', '11', '100', '101', '110', '111', '1000', '1001', '1010', '1011']
+process.stdout.write(JSON.stringify(findBin(11))) //[ '1', '10', '11', '100', '101', '110', '111', '1000', '1001', '1010', '1011']

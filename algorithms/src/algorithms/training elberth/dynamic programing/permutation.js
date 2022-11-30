@@ -27,3 +27,5 @@ const input = ['a', 'b', 'c'];
 
 const result = permutations(input);
 console.log(result);
+
+

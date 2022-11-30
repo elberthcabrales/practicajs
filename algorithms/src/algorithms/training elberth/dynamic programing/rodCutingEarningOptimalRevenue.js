@@ -1,4 +1,5 @@
-function rodCutting(n, prices, memo){
+const memo = {}
+function rodCutting(n, prices){
   if(n <= 0){
     return 0
   }
@@ -14,6 +15,22 @@ function rodCutting(n, prices, memo){
   memo[n] = maxValue;
   return  memo[n]
 }
-const memo = {}
-const result = rodCutting(4, [2,3,7,8], memo)
+
+function rodCuttingDp(n, pricesValue){
+  // create array for save prevValues
+  const dp = new Array(n).fill(0);
+
+  for(let rodChunk = 1; rodChunk <= n; rodChunk++){
+    let maxValue = 0;
+    for(let amount=1; amount <= rodChunk; amount++){
+      maxValue = Math.max(maxValue, pricesValue[amount-1] + dp[rodChunk - amount]);
+    }
+    dp[rodChunk] = maxValue;
+  }
+  console.log(dp);
+
+  return dp[n];
+}
+
+const result = rodCuttingDp(4, [2,3,7,8]);
 console.log(9 === result);

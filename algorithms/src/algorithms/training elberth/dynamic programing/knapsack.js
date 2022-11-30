@@ -26,12 +26,15 @@ const knapsackAux = (weights, prices, capacity, index, memo) => {
 
 const knapsack = (weights, prices, capacity) => {
   const memo = {};
-  return knapsackAux(weights, prices, capacity, 0, memo);
+  const result = knapsackAux(weights, prices, capacity, 0, memo);
+  console.log(memo);
+
+  return result;
 };
 
 const weights = [2, 1, 1, 3];
 const prices = [2, 8, 1, 10];
 const capacity = 4;
 const expected = 18;
-const result = knapsack(weights, prices, capacity);
+const result = dpKnapSack(weights, prices, capacity);
 console.log(result);

@@ -9,6 +9,25 @@
  * input n = 4 and m = 2
  * expected staircase(n, m) = 5
  * */
+
+function staircaseDp(n, m) {
+  const dp = new Array(n+1).fill(0);
+  dp[0] = 1;
+  dp[1] = 1;
+  for(let i = 1; i <= n;i++){
+    dp[i] = 0;
+    for(let step = 1; step <= m; step++){
+      if(step <= i){
+        dp[i] = dp[i] + dp[i-step];
+      }
+    }
+  }
+
+  return dp[n];
+}
+
+
+
 const memo = {};
 
 function staircase(n, m) {
@@ -30,4 +49,5 @@ function staircase(n, m) {
 const n = 4; // steps target
 const m = 2; // max steps in jump
 
-console.log(staircase(n, m));
+console.log(staircaseDp(n, m));
+//expected staircase(n, m) = 5
