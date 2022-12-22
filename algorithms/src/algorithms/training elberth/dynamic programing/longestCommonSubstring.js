@@ -1,4 +1,3 @@
-YOU
 function lcm(strFirst, strSecond){
   const dp = new Array(strFirst.length + 1).fill(0)
 

@@ -12,7 +12,7 @@ function solveKnapsack(weights, prices, capacity, index) {
   // we check both possibilities and return the most optimal one using max
   return Math.max( // this sum price because decrease capacity with current weights
     prices[index] + solveKnapsack(weights, prices, capacity - weights[index], index + 1),
-    solveKnapsack(weights, prices, capacity, index + 1),
+    solveKnapsack(weights, prices, capacity, index + 1)
   );
 }
 

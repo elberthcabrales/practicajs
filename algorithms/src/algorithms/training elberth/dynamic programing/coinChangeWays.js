@@ -1,6 +1,6 @@
 function countWays(coins, n){
   const dp = new Array(n+1).fill(0);
-  dp[0] = 1 // base case
+  dp[0] = 1; // base case
   for(let i = 1; i <= coins.length; i++){
     const coin = coins[i-1];
 
@@ -12,8 +12,8 @@ function countWays(coins, n){
     }
   }
 
-  return dp[n]
+  return dp[n];
 }
 
 const result = countWays([10,20,50], 50)
-console.log(result===4)
+console.log(result===4);
