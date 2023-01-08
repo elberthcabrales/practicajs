@@ -1,67 +1,46 @@
-function minWindow(str1, str2) {
-  // Save the size of str1 and str2
-  let sizeStr1 = str1.length,
-    sizeStr2 = str2.length;
+function minWindow(firstStr, secondStr) {
+ const secondSizeStr = secondStr.length;
+ const firstSizeStr = firstStr.length;
 
-  // Initialize length to a very large number (infinity)
-  let length = Infinity;
-  // Initialize pointers to zero and the minSubsequence to an empty string
-  let indexS1 = 0,
-    indexS2 = 0,
-    minSubsequence = "";
+ let windowSize = Infinity;
+ let firstIdx = 0;
+ let secondIdx = 0;
+ let minimumSubStr = '';
 
-  // Process every character of str1
-  while (indexS1 < sizeStr1) {
-    // Check if the character pointed by indexS1 in str1
-    // is the same as the character pointed by indexS2 in str2
-    if (str1[indexS1] === str2[indexS2]) {
-      // If the pointed character is the same
-      // in both strings increment indexS2
-      indexS2++;
-      // Check if indexS2 has reached the end of str2
-      if (indexS2 === sizeStr2) {
-        // At this point the str1 contains all characters of str2
-        let start = indexS1,
-          end = indexS1+1;
-        // Initialize start to the index where all characters of
-        // str2 were present in str1
-        indexS2--;
-        // Decrement pointer indexS2 and start a reverse loop
-        while (indexS2 >= 0) {
-          // Decrement pointer indexS2 until all characters of
-          // str2 are found in str1
-          if (str1[start] == str2[indexS2]) indexS2 -= 1;
-          // Decrement start pointer everytime to find the
-          // starting point of the required subsequence
-          start -= 1;
-        }
-        start++;
+ //traverse firstStr
+ for(firstIdx = 0; firstIdx < firstSizeStr; firstIdx++){
+   if(firstStr[firstIdx] === secondStr[secondIdx]){
+     secondIdx++;
+     if(secondIdx === secondSizeStr){
+       //go back and reduce the window from 0 to firstIdx to n(figure out) to firstIdx
+       let fistEndIdx = firstIdx;
+       let secondEndIdx = secondIdx;
 
-        // Check if length of sub sequence pointed
-        // by start and end pointers is less than current min length
-        if (end - start < length) {
-          // Update length if current sub sequence is shorter
-          length = end - start;
-          // Update minimum subsequence string
-          // to this new shorter string
-          minSubsequence = str1.substring(start, end);
-        }
+       while(fistEndIdx >= 0){
+         if(firstStr[fistEndIdx] === secondStr[secondEndIdx-1]){
+           secondEndIdx--;
+           if(secondEndIdx ===0) break;
+         }
+         fistEndIdx--;
+       }
 
-        // Set indexS1 to start to continue checking in str1
-        // after this discovered subsequence
-        indexS1 = start
-        indexS2 = 0
-      }
-    }
-    // Increment pointer indexS1 to check next character in str1
-    indexS1++;
-  }
-  return minSubsequence;
+       //validate window smallest
+       if((firstIdx-fistEndIdx+1) < windowSize){
+         windowSize = (firstIdx-fistEndIdx+1);
+         minimumSubStr = firstStr.substring(fistEndIdx, firstIdx+1);
+       }
+       secondIdx = 0;
+       firstIdx--;
+     }
+   }
+}
+
+ return minimumSubStr;
 }
 
 function main() {
   let str1 = [
-    "qwewerrty",
+    "wwteyawty",
     "abcdebdde",
     "fgrqsqsnodwmxzkzxwqegkndaa",
     "aaabbcbq",
@@ -71,7 +50,7 @@ function main() {
     "asd",
     "abcd",
   ];
-  let str2 = ["werty", "bde", "kzed", "abc", "css", "la", "ab", "as", "pp"];
+  let str2 = ["wty", "bde", "kzed", "abc", "css", "la", "ab", "as", "pp"];
 
   for (let i = 0; i < str1.length; i++) {
     console.log(
